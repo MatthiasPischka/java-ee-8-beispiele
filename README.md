@@ -1,5 +1,6 @@
 # java-ee-8-beispiele
 Beispiele zu Java EE 8
+* **arquillian-junit5-wildfly:** Arquillian mit JUnit 5 im WildFly Remote Server
 * **primefaces-schnellstart:** JSF 2.3 Anwendung mit PrimeFaces 8.0
 
 ## Ausführen
