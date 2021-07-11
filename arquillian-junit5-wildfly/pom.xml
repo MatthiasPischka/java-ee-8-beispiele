@@ -13,7 +13,7 @@
   <packaging>war</packaging>
 
   <properties>
-    <junit.version>5.7.0</junit.version>
+    <junit.version>5.7.2</junit.version>
   </properties>
 
   <dependencyManagement>
@@ -21,7 +21,7 @@
       <dependency>
         <groupId>org.jboss.arquillian</groupId>
         <artifactId>arquillian-bom</artifactId>
-        <version>1.7.0.Alpha6</version>
+        <version>1.7.0.Alpha10</version>
         <type>pom</type>
         <scope>import</scope>
       </dependency>
