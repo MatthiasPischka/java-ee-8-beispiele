@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html">
+
+<h:head>
+  <title>JSF 2.3 - Durch Keycloak abgesichert</title>
+</h:head>
+
+<h:body>
+  <h1>Beispielanwendung zu JSF 2.3 mit Keycloak</h1>
+
+  <ul>
+    <li>Dies ist der öffentliche Bereich der Anwendung, der jedem Benutzer zugänglich ist.</li>
+    <li>Alles unterhalb des Pfads <i>/intern</i> ist für nicht berechtigte Benutzer gesperrt.</li>
+    <li>Versucht der Benutzer auf den internen Bereich zuzugreifen, schaltet sich das Keycloak SSO dazwischen und
+      fragt nach validen Benutzerdaten.
+    </li>
+    <li>Die Konfiguration für Keycloak ist in WEB-INF/keycloak.json einzusehen.</li>
+  </ul>
+
+  <p>
+    Dies ist der öffentliche Bereich der Anwendung, der jedem Benutzer zugänglich ist.
+  </p>
+
+  <h:form id="form_index">
+    <h2>Navigation</h2>
+    <h:link outcome="/intern/abgesichert">Navigiere zum internen Bereich</h:link>
+  </h:form>
+
+</h:body>
+</html>

@@ -1,6 +1,7 @@
 # java-ee-8-beispiele
 Beispiele zu Java EE 8
 * **arquillian-junit5-wildfly:** Arquillian mit JUnit 5 im WildFly Remote Server
+* **jsf2.3-keycloak:** JSF 2.3 Anwendung, abgesichert durch Keycloak SSO
 * **primefaces-schnellstart:** JSF 2.3 Anwendung mit PrimeFaces 8.0
 
 ## Ausführen
