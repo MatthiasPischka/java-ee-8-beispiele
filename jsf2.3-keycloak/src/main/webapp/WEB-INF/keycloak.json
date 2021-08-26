@@ -1,6 +1,6 @@
 {
   "realm": "Testrealm",
-  "auth-server-url": "http://localhost:8180/auth/",
+  "auth-server-url": "http://gateway.docker.internal:8180/auth/",
   "ssl-required": "external",
   "resource": "testclient",
   "public-client": true,
