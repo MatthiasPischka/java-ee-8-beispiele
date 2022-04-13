@@ -12,6 +12,7 @@
     <module>primefaces-schnellstart</module>
     <module>arquillian-junit5-wildfly</module>
     <module>jsf2.3-keycloak</module>
+    <module>jsf2.3-keycloak-ohne-adapter</module>
   </modules>
 
   <properties>

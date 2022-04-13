@@ -1,0 +1,11 @@
+{
+  "realm": "Testrealm",
+  "auth-server-url": "http://gateway.docker.internal:8180/auth/",
+  "ssl-required": "external",
+  "resource": "testclient",
+  "public-client": true,
+  "verify-token-audience": true,
+  "use-resource-role-mappings": true,
+  "use-realm-role-mappings": false,
+  "confidential-port": 0
+}
